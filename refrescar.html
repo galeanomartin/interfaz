@@ -4,16 +4,22 @@
 		<meta name="description" content="Un ejemplo de refrescar web">
   		<meta name="keywords" content="Palabras claves para búsqueda de Google">
   		<meta name="author" content="Martín Galeano">
-  		<meta http-equiv="refresh" content="30">
+  		<meta http-equiv="refresh" content="5;URL=refrescar.html">
    		<meta charset="UTF-8">
 		<title>INTERFAZ HOMBRE MÁQUINA</title>
 	</head>
 
 <body>
 	<h1>REFRESCAR</h1>
-	<a href="index.html">Home</a>
-	<a href="metadato.html">Metadatos</a>
-
+	Reloj: 
+	<script> 
+		miFecha = new Date() 
+		document.write(miFecha.getHours() + ":" + miFecha.getMinutes() + ":" + miFecha.getSeconds()) 
+	</script> 
+	<p>
+		<a href="index.html">Volver al Home</a>
+	</p>
 </body>
 
 </html>
+ 

@@ -1,0 +1,78 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 8b697f2..d0d7825 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,11 +1,14 @@[m
+ <!DOCTYPE html>[m
+ <html>[m
+ <head>[m
+[32m+[m	[32m<meta charset="UTF-8">[m
+ 	<title>INTERFAZ HOMBRE MÁQUINA</title>[m
+ </head>[m
+ <body>[m
+[31m-	<h1>INTERFAZ HOMBRE MAQUINA</h1>[m
+[31m-	<a href="metadato.html">Metadato</a>[m
+[31m-	<a href="refrescar.html">Refrescar</a>[m
+[32m+[m	[32m<h1>INTERFAZ HOMBRE MÁQUINA</h1>[m
+[32m+[m	[32m<p><a href="metadato.html">Ejercicio 1.2:</a> Página con metadatos.</p>[m
+[32m+[m	[32m<p><a href="refrescar.html">Ejercicio 1.3:</a> Página que se refresca cada 5 segundos (mirar reloj).</p>[m
+[32m+[m	[32m<p><a href="estilo.html">Ejercicio 2.1:</a> Página con estilos.</p>[m
+[32m+[m[41m	[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/metadato.html b/metadato.html[m
+[1mindex 1d81521..a4e9f93 100644[m
+[1m--- a/metadato.html[m
+[1m+++ b/metadato.html[m
+[36m@@ -7,12 +7,10 @@[m
+    		<meta charset="UTF-8">[m
+ 		<title>INTERFAZ HOMBRE MÁQUINA</title>[m
+ 	</head>[m
+[31m-[m
+ <body>[m
+[31m-	<h1>METADATO</h1>[m
+[31m-	<a href="index.html">Home</a>[m
+[31m-	<a href="refrescar.html">Refrescar</a>[m
+[31m-[m
+[32m+[m	[32m<h1>PÁGINA CON METADATOS</h1>[m
+[32m+[m	[32m<a href="index.html">Volver al Home</a>[m
+[32m+[m[41m	[m
+ </body>[m
+ [m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/refrescar.html b/refrescar.html[m
+[1mindex 781f392..79cae47 100644[m
+[1m--- a/refrescar.html[m
+[1m+++ b/refrescar.html[m
+[36m@@ -4,16 +4,22 @@[m
+ 		<meta name="description" content="Un ejemplo de refrescar web">[m
+   		<meta name="keywords" content="Palabras claves para búsqueda de Google">[m
+   		<meta name="author" content="Martín Galeano">[m
+[31m-  		<meta http-equiv="refresh" content="30">[m
+[32m+[m[41m  [m		[32m<meta http-equiv="refresh" content="5;URL=refrescar.html">[m
+    		<meta charset="UTF-8">[m
+ 		<title>INTERFAZ HOMBRE MÁQUINA</title>[m
+ 	</head>[m
+ [m
+ <body>[m
+ 	<h1>REFRESCAR</h1>[m
+[31m-	<a href="index.html">Home</a>[m
+[31m-	<a href="metadato.html">Metadatos</a>[m
+[31m-[m
+[32m+[m	[32mReloj:[m[41m [m
+[32m+[m	[32m<script>[m[41m [m
+[32m+[m		[32mmiFecha = new Date()[m[41m [m
+[32m+[m		[32mdocument.write(miFecha.getHours() + ":" + miFecha.getMinutes() + ":" + miFecha.getSeconds())[m[41m [m
+[32m+[m	[32m</script>[m[41m [m
+[32m+[m	[32m<p>[m
+[32m+[m		[32m<a href="index.html">Volver al Home</a>[m
+[32m+[m	[32m</p>[m
+ </body>[m
+ [m
+[31m-</html>[m
+\ No newline at end of file[m
+[32m+[m[32m</html>[m
+[41m+ [m
+\ No newline at end of file[m
