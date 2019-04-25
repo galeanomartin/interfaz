@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="description" content="Un ejemplo de refrescar web">
+  		<meta name="keywords" content="Palabras claves para búsqueda de Google">
+		<meta name="author" content="Martín Galeano">
+		<!--Refrescar página cada 5 segundos-->  
+  		<meta http-equiv="refresh" content="5;URL=refrescar.html">
+   		<title>INTERFAZ HOMBRE MÁQUINA</title>
+	</head>
+
+<body>
+	<h1>REFRESCAR PÁGINA (mirar reloj)</h1>
+	<strong>Reloj: 
+		<script> 
+			miFecha = new Date() 
+			document.write(miFecha.getHours() + ":" + miFecha.getMinutes() + ":" + miFecha.getSeconds()) 
+		</script> 
+	</strong> 
+	<p>
+		<a href="../index.html">Volver al Home</a>
+	</p>
+</body>
+
+</html>
+ 

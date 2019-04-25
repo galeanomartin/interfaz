@@ -9,7 +9,7 @@ kbd {
         font-size: .85em;
         font-weight: 700;
         line-height: inherit;
-        padding: 2px 4px;
+        padding: 2px 4px;//arreglar este 0.1em 0.6em
         white-space: nowrap;
   }
 
